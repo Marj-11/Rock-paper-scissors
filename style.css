@@ -102,3 +102,18 @@ img:hover {
     border: 30px solid #464647;
     box-shadow: 0 0 100px #25292b;
 }
+
+@media(max-width: 880px) {
+    .choices {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-items: center;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        border: 30px solid transparent;
+        border-radius: 50%;
+    }
+}
